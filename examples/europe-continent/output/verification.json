@@ -1,0 +1,199 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 66.52,
+  "frames": 1996,
+  "audioDuration": 66.44,
+  "textSafeArea": {
+    "left": 60,
+    "top": 220,
+    "right": 960,
+    "bottom": 1500
+  },
+  "textViolations": [],
+  "browserErrors": [],
+  "contactChecks": [
+    {
+      "scene": "name-eurasia",
+      "time": 0.4,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "name-eurasia",
+      "time": 0.4,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "name-eurasia",
+      "time": 2,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "name-eurasia",
+      "time": 2,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "name-eurasia",
+      "time": 4,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "name-eurasia",
+      "time": 4,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "one-landmass",
+      "time": 0.4,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "one-landmass",
+      "time": 0.4,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "one-landmass",
+      "time": 2,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "one-landmass",
+      "time": 2,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "one-landmass",
+      "time": 4,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "one-landmass",
+      "time": 4,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "definition-book",
+      "time": 2.3,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "history-atlas",
+      "time": 2.1,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "place-labels",
+      "time": 1.9,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "place-labels",
+      "time": 2.8,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "draw-boundary",
+      "time": 0.8,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "draw-boundary",
+      "time": 1.8,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "draw-boundary",
+      "time": 3.3,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "school-books",
+      "time": 2.4,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "school-books",
+      "time": 2.4,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "map-open",
+      "time": 0,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "map-open",
+      "time": 2.5,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "map-open",
+      "time": 4.75,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "map-question",
+      "time": 0,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "map-question",
+      "time": 0,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "map-question",
+      "time": 2.5,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "map-question",
+      "time": 2.5,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "map-question",
+      "time": 4.75,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "map-question",
+      "time": 4.75,
+      "figure": 1,
+      "distance": 0
+    }
+  ],
+  "checkedAt": "2026-11-18T18:31:11.581Z"
+}

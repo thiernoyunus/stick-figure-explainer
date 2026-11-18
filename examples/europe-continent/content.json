@@ -1,0 +1,516 @@
+{
+  "title": "Why is Europe a separate continent?",
+  "outputFile": "europe-continent.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 66.52,
+  "safe": {
+    "left": 60,
+    "top": 220,
+    "right": 960,
+    "bottom": 1500
+  },
+  "contactChecks": [
+    [
+      "name-eurasia",
+      0.4,
+      [
+        -117,
+        -58
+      ],
+      0
+    ],
+    [
+      "name-eurasia",
+      0.4,
+      [
+        117,
+        -58
+      ],
+      1
+    ],
+    [
+      "name-eurasia",
+      2,
+      [
+        -117,
+        -73
+      ],
+      0
+    ],
+    [
+      "name-eurasia",
+      2,
+      [
+        117,
+        -73
+      ],
+      1
+    ],
+    [
+      "name-eurasia",
+      4,
+      [
+        -117,
+        -73
+      ],
+      0
+    ],
+    [
+      "name-eurasia",
+      4,
+      [
+        117,
+        -73
+      ],
+      1
+    ],
+    [
+      "one-landmass",
+      0.4,
+      [
+        -117,
+        -58
+      ],
+      0
+    ],
+    [
+      "one-landmass",
+      0.4,
+      [
+        117,
+        -58
+      ],
+      1
+    ],
+    [
+      "one-landmass",
+      2,
+      [
+        -117,
+        -73
+      ],
+      0
+    ],
+    [
+      "one-landmass",
+      2,
+      [
+        117,
+        -73
+      ],
+      1
+    ],
+    [
+      "one-landmass",
+      4,
+      [
+        -117,
+        -73
+      ],
+      0
+    ],
+    [
+      "one-landmass",
+      4,
+      [
+        117,
+        -73
+      ],
+      1
+    ],
+    [
+      "definition-book",
+      2.3,
+      [
+        -110,
+        -70
+      ]
+    ],
+    [
+      "history-atlas",
+      2.1,
+      [
+        -87,
+        -70
+      ]
+    ],
+    [
+      "place-labels",
+      1.9,
+      [
+        -101,
+        -76
+      ]
+    ],
+    [
+      "place-labels",
+      2.8,
+      [
+        51,
+        -76
+      ],
+      1
+    ],
+    [
+      "draw-boundary",
+      0.8,
+      [
+        -14.712732185631555,
+        -126.12032805001587
+      ]
+    ],
+    [
+      "draw-boundary",
+      1.8,
+      [
+        -28.14314636846504,
+        -101.5677471833924
+      ]
+    ],
+    [
+      "draw-boundary",
+      3.3,
+      [
+        -65.38,
+        -89.37777777777778
+      ]
+    ],
+    [
+      "school-books",
+      2.4,
+      [
+        -120,
+        -69
+      ]
+    ],
+    [
+      "school-books",
+      2.4,
+      [
+        120,
+        -69
+      ],
+      1
+    ],
+    [
+      "map-open",
+      0,
+      [
+        -118,
+        -65
+      ]
+    ],
+    [
+      "map-open",
+      2.5,
+      [
+        -118,
+        -65
+      ]
+    ],
+    [
+      "map-open",
+      4.75,
+      [
+        -118,
+        -65
+      ]
+    ],
+    [
+      "map-question",
+      0,
+      [
+        -117,
+        -73
+      ],
+      0
+    ],
+    [
+      "map-question",
+      0,
+      [
+        117,
+        -73
+      ],
+      1
+    ],
+    [
+      "map-question",
+      2.5,
+      [
+        -117,
+        -73
+      ],
+      0
+    ],
+    [
+      "map-question",
+      2.5,
+      [
+        117,
+        -73
+      ],
+      1
+    ],
+    [
+      "map-question",
+      4.75,
+      [
+        -117,
+        -73
+      ],
+      0
+    ],
+    [
+      "map-question",
+      4.75,
+      [
+        117,
+        -73
+      ],
+      1
+    ]
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "scene": "map-open",
+      "start": 0,
+      "duration": 5.55,
+      "voiceDuration": 4.8,
+      "eyebrow": "LOOK AT THE MAP",
+      "title": [
+        "Why a separate",
+        "continent?"
+      ],
+      "accent": "#4969a0",
+      "narration": "Why is Europe considered a separate continent when there's no ocean separating it from Asia?",
+      "captions": [
+        "Why is Europe a separate continent?",
+        "There's no ocean separating it from Asia."
+      ],
+      "captionStarts": [
+        0,
+        2.7
+      ]
+    },
+    {
+      "id": "connected",
+      "scene": "walk-map",
+      "start": 5.55,
+      "duration": 7.35,
+      "voiceDuration": 6.75,
+      "eyebrow": "PORTUGAL → CHINA",
+      "title": [
+        "The mainland",
+        "is connected."
+      ],
+      "accent": "#28765a",
+      "narration": "Look at a map. From Portugal to China, the mainland is connected. No ocean separates Europe from Asia.",
+      "captions": [
+        "Look at a map.",
+        "From Portugal to China,",
+        "the mainland is connected.",
+        "No ocean separates Europe from Asia."
+      ],
+      "captionStarts": [
+        0,
+        1.37,
+        3.01,
+        4.65
+      ]
+    },
+    {
+      "id": "eurasia",
+      "scene": "name-eurasia",
+      "start": 12.9,
+      "duration": 3.15,
+      "voiceDuration": 2.44,
+      "eyebrow": "ONE CONNECTED LANDMASS",
+      "title": [
+        "It has a name.",
+        "Eurasia."
+      ],
+      "accent": "#28765a",
+      "narration": "That landmass has a name: Eurasia.",
+      "captions": [
+        "That landmass has a name:",
+        "Eurasia."
+      ],
+      "captionStarts": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "definition",
+      "scene": "definition-book",
+      "start": 16.05,
+      "duration": 5.7,
+      "voiceDuration": 4.95,
+      "eyebrow": "IF CONTINENT = A SEPARATE LANDMASS",
+      "title": [
+        "Europe doesn’t",
+        "qualify alone."
+      ],
+      "accent": "#b45309",
+      "narration": "If you define a continent as a major, separate landmass, Europe doesn't qualify on its own.",
+      "captions": [
+        "If a continent is a major, separate landmass,",
+        "Europe doesn't qualify on its own."
+      ],
+      "captionStarts": [
+        0,
+        3.45
+      ]
+    },
+    {
+      "id": "origin",
+      "scene": "history-atlas",
+      "start": 21.75,
+      "duration": 3.0,
+      "voiceDuration": 2.17,
+      "eyebrow": "FOLLOW THE HISTORY",
+      "title": [
+        "Where did the",
+        "division begin?"
+      ],
+      "accent": "#b45309",
+      "narration": "So where did the division come from?",
+      "captions": [
+        "So where did the division come from?"
+      ],
+      "captionStarts": [
+        0
+      ]
+    },
+    {
+      "id": "identity",
+      "scene": "place-labels",
+      "start": 24.75,
+      "duration": 10.4,
+      "voiceDuration": 9.49,
+      "eyebrow": "ANCIENT GREEK DISTINCTIONS",
+      "title": [
+        "Identity.",
+        "Politics."
+      ],
+      "accent": "#b45309",
+      "narration": "Ancient Greek thinkers distinguished Europe from Asia, including their Persian rivals. The separation became tied to identity and politics—not just the shape of the land.",
+      "captions": [
+        "Ancient Greek thinkers distinguished Europe from Asia,",
+        "including their Persian rivals.",
+        "The separation became tied to identity and politics—",
+        "not just the shape of the land."
+      ],
+      "captionStarts": [
+        0,
+        3.09,
+        4.79,
+        8.17
+      ]
+    },
+    {
+      "id": "boundary",
+      "scene": "draw-boundary",
+      "start": 35.15,
+      "duration": 8.67,
+      "voiceDuration": 7.91,
+      "eyebrow": "A CONVENTIONAL BOUNDARY • SCHEMATIC",
+      "title": [
+        "A line doesn’t",
+        "split the land."
+      ],
+      "accent": "#b45309",
+      "narration": "Later, European geographers chose the Ural Mountains as a boundary. But drawing a line across a landmass doesn't create another one.",
+      "captions": [
+        "Later, European geographers chose the Ural Mountains",
+        "as a boundary.",
+        "But drawing a line across a landmass",
+        "doesn't create another one."
+      ],
+      "captionStarts": [
+        0,
+        3.42,
+        4.77,
+        6.55
+      ]
+    },
+    {
+      "id": "schools",
+      "scene": "school-books",
+      "start": 43.82,
+      "duration": 9.95,
+      "voiceDuration": 9.24,
+      "eyebrow": "GEOGRAPHY ISN’T TAUGHT ONE WAY",
+      "title": [
+        "Some textbooks",
+        "teach Eurasia."
+      ],
+      "accent": "#4969a0",
+      "narration": "And the seven-continent system isn't taught everywhere. Russian and Japanese school materials describe Eurasia as one continent, with Europe and Asia treated as regions within it.",
+      "captions": [
+        "The seven-continent system isn't taught everywhere.",
+        "Russian and Japanese school materials",
+        "describe Eurasia as one continent,",
+        "with Europe and Asia as regions within it."
+      ],
+      "captionStarts": [
+        0,
+        3.38,
+        4.78,
+        7.08
+      ]
+    },
+    {
+      "id": "closing",
+      "scene": "one-landmass",
+      "start": 53.77,
+      "duration": 6.23,
+      "voiceDuration": 5.25,
+      "eyebrow": "ONE LANDMASS • HISTORICAL LABELS",
+      "title": [
+        "A historical",
+        "division."
+      ],
+      "accent": "#28765a",
+      "narration": "Europe's separate-continent status comes from a historical division—not a separate piece of the Earth.",
+      "captions": [
+        "Europe's separate-continent status",
+        "comes from a historical division—",
+        "not a separate piece of the Earth."
+      ],
+      "captionStarts": [
+        0,
+        1.97,
+        3.91
+      ]
+    },
+    {
+      "id": "question",
+      "scene": "map-question",
+      "start": 60,
+      "duration": 6.52,
+      "voiceDuration": 5.52,
+      "eyebrow": "WHAT WOULD YOU CALL IT?",
+      "title": [
+        "Europe—or",
+        "Eurasia?"
+      ],
+      "accent": "#4969a0",
+      "narration": "So, would you call Europe a continent—or part of Eurasia? Tell me in the comments.",
+      "captions": [
+        "So, would you call Europe a continent—",
+        "or part of Eurasia?",
+        "Tell me in the comments."
+      ],
+      "captionStarts": [
+        0,
+        2.2,
+        4.22
+      ]
+    }
+  ]
+}

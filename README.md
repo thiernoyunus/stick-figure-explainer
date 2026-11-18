@@ -1,24 +1,42 @@
-# Stick Reel
+# Stick Figure Explainer
 
 An agent skill for turning a topic into a narrated, hand-drawn vertical explainer—with purposeful stick-figure actions, captions, an editable preview and a finished MP4.
 
 Built on [Kamran Ahmed's stick-scene](https://github.com/nilbuild/stick-scene), adapted from small website animations into a complete video-making workflow. The original runtime, license and example sources are included.
 
+## Made with this skill
+
+Animated previews are silent. Open the full narrated video for audio, or browse its editable source.
+
+<table>
+<tr><th>1 · Europe and Eurasia</th><th>2 · Quranic language</th></tr>
+<tr>
+<td align="center"><a href="examples/europe-continent/output/europe-continent.mp4"><img src="assets/showcase/europe-eurasia.gif" width="270" alt="An open map, a figure walking across Eurasia, centered regional labels and a cartographer drawing a boundary"></a></td>
+<td align="center"><a href="examples/adraka-yudrika-remake/output/adraka-yudrika-remake.mp4"><img src="assets/showcase/quran-language.gif" width="270" alt="Readers unfolding questions, opening a book, carrying a lantern and drawing out a month scroll"></a></td>
+</tr>
+<tr>
+<td><strong>Why is Europe a separate continent?</strong><br>66.52 seconds · English narration<br><a href="examples/europe-continent/output/europe-continent.mp4">Full narrated video</a> · <a href="examples/europe-continent/">Editable source</a> · <a href="examples/europe-continent/SOURCES.md">Research</a></td>
+<td><strong>Wa mā adrāka and wa mā yudrīka</strong><br>91.82 seconds · English narration with Arabic quotations<br><a href="examples/adraka-yudrika-remake/output/adraka-yudrika-remake.mp4">Full narrated video</a> · <a href="examples/adraka-yudrika-remake/">Editable source</a> · <a href="examples/adraka-yudrika-remake/SOURCES.md">Research</a></td>
+</tr>
+</table>
+
+The first example demonstrates a comparison visible from frame one, a floor map, a shared load, a pencil following a boundary, distinctive companions, readable labels and a closing question. The Quran example demonstrates question/answer timing, verified Arabic quotations and a wider range of physical actions. Both include narration, timed captions, editable scenes and the finished MP4. They are reference productions, not compulsory templates for every topic.
+
 ## Install the skill
 
 ```sh
-npx skills add thiernoyunus/stick-reel --skill stick-reel
+npx skills add thiernoyunus/stick-figure-explainer --skill stick-figure-explainer
 ```
 
 Or clone this repository into your agent's skills directory. For Codex, a manual installation is:
 
 ```sh
-git clone https://github.com/thiernoyunus/stick-reel.git ~/.codex/skills/stick-reel
+git clone https://github.com/thiernoyunus/stick-figure-explainer.git ~/.codex/skills/stick-figure-explainer
 ```
 
-Restart or refresh your agent's skill discovery if needed. Then ask:
+Previously named **Stick Reel**. Existing GitHub repository links redirect to the new name; install under the new name and refresh your agent’s skill discovery. Then ask:
 
-> Use $stick-reel to make a narrated Reel explaining the difference between these two ideas. Let's agree on the script first.
+> Use $stick-figure-explainer to make a narrated Reel explaining the difference between these two ideas. Let's agree on the script first.
 
 The agent reads the creative guidance, chooses physical metaphors, prepares narration, draws the scenes, checks them and exports. It should preserve an approved script and your explicit creative choices.
 
@@ -63,12 +81,7 @@ Projects contain actual local files and can be moved independently of this repos
 
 ## Examples and visual vocabulary
 
-<table><tr>
-<td><a href="examples/focus/output/focus.mp4"><img src="examples/focus/output/cover.png" width="210" alt="A reader carrying a task card into lamplight"></a><br>Focus · general topic</td>
-<td><a href="examples/rain-context/output/matar-ghayth.mp4"><img src="examples/rain-context/output/cover.png" width="210" alt="Two Arabic rain words in context"></a><br>Rain in context</td>
-<td><a href="examples/adraka-yudrika-remake/output/adraka-yudrika-remake.mp4"><img src="examples/adraka-yudrika-remake/output/cover.png" width="210" alt="Reading partners unfold and carry different question packets"></a><br>Adraka and yudrika · remake</td>
-</tr></table>
-
+- [Europe and Eurasia](examples/europe-continent/): the final map explainer shown first above, including research, an immediately visible opening map, centered Asia labels and a brimmed-hat companion.
 - [Focus](examples/focus/): a general-purpose narrated example with editable source.
 - [Rain in context](examples/rain-context/): held umbrella, rain, plant growth and contextual comparison.
 - [Adraka and yudrika](examples/adraka-yudrika/): Arabic quotations and English explanations across several props.
@@ -91,7 +104,7 @@ python3 -m unittest discover -s tests -p 'test_*.py'
 npm run test:smoke
 ```
 
-The smoke test creates a fresh project in a folder with spaces, imports bundled narration, exports/decodes the video, checks playback and phone layout, and verifies that missed contacts and overflowing titles fail. It does not make paid API calls. See [project-format.md](references/project-format.md) for editing details.
+The smoke test creates a fresh project in a folder with spaces, imports bundled narration, exports/decodes the video, checks narration playback, actual audio seeking and phone layout, and verifies that missed contacts and overflowing titles fail. It does not make paid API calls. See [project-format.md](references/project-format.md) for editing details.
 
 ## Credit and license
 

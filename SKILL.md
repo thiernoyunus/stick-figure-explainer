@@ -1,10 +1,10 @@
 ---
-name: stick-reel
+name: stick-figure-explainer
 description: Create narrated vertical explainer videos with hand-drawn stick figures, meaningful prop interactions, timed captions, and checked social-media text placement. Use for a finished stick-figure Reel or Short, rather than an isolated website animation.
 license: MIT
 ---
 
-# Stick Reel
+# Stick Figure Explainer
 
 Turn a topic into a finished narrated 9:16 video and an editable browser preview. The package includes its drawing runtime, fonts, examples and export tools; the original stick-scene skill does not need to be installed.
 
@@ -15,6 +15,8 @@ Read [creative.md](references/creative.md) and the [example guide](references/ex
 Establish the audience, one takeaway, approximate length and voice choice from the request. Offer a concise script first when approval is requested or the message is still being developed. If the user already approved the script or delegated the choices, proceed. Preserve approved words; do not quietly shorten them, change quotations or invent conclusions. Estimate spoken length before promising a duration.
 
 Use a specific hook, a simple explanation, concrete examples and a useful closing thought. Write for listening: connected short sentences, everyday words, no jargon or canned introductions. Each scene should show an idea changing through a physical action. Choose props suited to the subject; don't reuse Quran metaphors for an unrelated topic just because the code exists.
+
+Make the key visual legible from the first frame. If unfolding or assembling a prop delays the hook without explaining anything, start with it already open. An idle figure can simply hold it. When a discussion prompt fits the brief, finish with one clear question the viewer can answer; avoid adding an unrelated claim just to attract comments.
 
 ## Create the project
 
@@ -44,7 +46,7 @@ Default to 1080 × 1920, white paper, black ink, a few accent colors, large titl
 
 Leave the surrounding video white. Don't add decorative dots, colored margins, outer scene cards or caption panels by habit. Physical cards, books and machines inside a scene are useful props; an outer container that shrinks the whole drawing is unnecessary.
 
-Before drawing, describe each shot as a physical verb, object and result: carry a card to a tray, catch a letter and tip it into an inbox, unfold a note, crank a converter, hang a frame, or hand a request to a companion who responds. A button is appropriate when a button explains the idea; do not default every thought to walk → click → reveal. Add a companion when they have a distinct useful role, not just to occupy space.
+Before drawing, describe each shot as a physical verb, object and result: carry a card to a tray, catch a letter and tip it into an inbox, unfold a note, crank a converter, hang a frame, or hand a request to a companion who responds. A button is appropriate when a button explains the idea; do not default every thought to walk → click → reveal. Add a companion when they have a distinct useful role, not just to occupy space. Give recurring companions a consistent visual distinction. Reuse a proven accessory such as the runtime’s `hat: true` rather than approximating it with a flat strip; see the Europe example and [craft.md](references/craft.md).
 
 Hands rest at the sides unless doing something. For active hands, draw reachable handles, tabs, pages or objects and aim at their real coordinates with `lp()`. Draw props behind figures; use the returned hand position for held objects. A thrown object stays attached until release, then travels from that actual hand along an arc; a catch meets it at the receiving hand. No pointing into empty space. Use anticipation, follow-through, a small settling wobble, and a delayed reaction where they follow from the action. Decorative objects alone do not make a scene lively. Hold the visible result long enough to read. Change scenes when the idea changes, not merely to add motion.
 
@@ -58,7 +60,7 @@ node "$SKILL_DIR/scripts/motion.mjs" --scene SCENE_ID --src ./my-reel/scenes.js
 node "$SKILL_DIR/scripts/render.mjs" ./my-reel --check
 ```
 
-Fix motion findings, cropped drawings, unreadable labels, overlaps and premature reveals. Register active hand targets in `contactChecks`; the exporter measures the real drawn positions. Native checks include the loop reset; Reel shots hold the payoff before cutting.
+Fix motion findings, cropped drawings, unreadable labels, overlaps and premature reveals. Important words belong on clear space: move a cramped map/book label below the prop and enlarge it. Center regional labels over the region they represent, including held cards; move the holder with the card so the grip remains real. Register active hand targets in `contactChecks`; the exporter measures the real drawn positions. Native checks include the loop reset; Reel shots hold the payoff before cutting.
 
 Inspect the full-Reel contact sheet at phone size, not only the small native scenes. Then export:
 

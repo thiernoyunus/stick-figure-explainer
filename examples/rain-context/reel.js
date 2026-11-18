@@ -3,7 +3,10 @@
   await Promise.all([document.fonts.load('700 72px "Balsamiq Sans"'),document.fonts.load('400 40px "Balsamiq Sans"'),document.fonts.load('600 60px Arabic')]);
   const canvas=document.getElementById('reel'),g=canvas.getContext('2d'),R=window.RIG;
   const paper='#ffffff',ink='#141414';
-  const audio=new Audio('assets/narration.wav');
+  const recording=await fetch('assets/narration.wav');
+  if(!recording.ok)throw Error('Could not load narration.');
+  // Load once so seeking also works on simple static servers.
+  const audio=new Audio(URL.createObjectURL(await recording.blob()));
   let playing=false,current=0,raf=0;
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
   function label(s,x,y,size=36,col=ink,align='left',weight=400){g.font=`${weight} ${size}px "Balsamiq Sans"`;g.fillStyle=col;g.textAlign=align;g.textBaseline='alphabetic';g.fillText(s,x,y)}

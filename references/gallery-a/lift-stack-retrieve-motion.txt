@@ -1,5 +1,5 @@
 Scene: p:data structures in JS
-Source: stick-reel/examples/upstream/scenes-p3.js
+Source: stick-figure-explainer/examples/upstream/scenes-p3.js
 Checker: original motion.mjs, 60 fps, default play
 Exit code: 0
 

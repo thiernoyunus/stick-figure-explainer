@@ -24,7 +24,7 @@ The original tool's runtime and the bundled [runtime](../../runtime/stick.js) ha
 
 ## Reproduce selected sheets
 
-From the `stick-reel` package root, after its documented dependency/browser setup:
+From the `stick-figure-explainer` package root, after its documented dependency/browser setup:
 
 ```sh
 node scripts/frames.mjs --scene 'p:aws-cost-cli' --src examples/upstream/scenes-p3.js --frames 'idle:0,s:2.2,s:2.8,s:2.98,s:3.14,s:3.2,s:3.45,s:4.35' --fw 420 --fh 250 --cols 4 --out references/gallery-a/throw-receipt.png

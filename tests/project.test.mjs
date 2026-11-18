@@ -7,7 +7,7 @@ import {readProject} from '../scripts/project.mjs';
 import {serveProject} from '../scripts/preview.mjs';
 
 const starter=JSON.parse(readFileSync(new URL('../assets/starter/content.json',import.meta.url)));
-function withProject(change,check){const root=mkdtempSync(join(tmpdir(),'stick-reel-test-'));try{const data=structuredClone(starter);change(data);writeFileSync(join(root,'content.json'),JSON.stringify(data));check(root)}finally{rmSync(root,{recursive:true,force:true})}}
+function withProject(change,check){const root=mkdtempSync(join(tmpdir(),'stick-figure-explainer-test-'));try{const data=structuredClone(starter);change(data);writeFileSync(join(root,'content.json'),JSON.stringify(data));check(root)}finally{rmSync(root,{recursive:true,force:true})}}
 test('rejects gaps and overlaps instead of silently losing frames',()=>{for(const delta of [-.1,.1])withProject(d=>d.beats[1].start+=delta,p=>assert.throws(()=>readProject(p),/contiguous/))});
 test('rejects invalid caption timings and output traversal',()=>{
   withProject(d=>d.beats[0].captionStarts[1]=d.beats[0].duration,p=>assert.throws(()=>readProject(p),/captionStarts/));
@@ -15,7 +15,7 @@ test('rejects invalid caption timings and output traversal',()=>{
 });
 test('accepts the complete timed starter',()=>withProject(()=>{},p=>assert.equal(readProject(p).beats.length,2)));
 test('preview serves project files but refuses an outside symlink',async()=>{
-  const root=mkdtempSync(join(tmpdir(),'stick-reel-server-'));let server;
+  const root=mkdtempSync(join(tmpdir(),'stick-figure-explainer-server-'));let server;
   try{writeFileSync(join(root,'index.html'),'project');writeFileSync(join(root,'outside.txt'),'private');const project=join(root,'project');
     const {mkdirSync}=await import('node:fs');mkdirSync(project);writeFileSync(join(project,'index.html'),'public');symlinkSync(resolve(root,'outside.txt'),join(project,'leak.txt'));
     server=await serveProject(project);const base=`http://127.0.0.1:${server.address().port}`;

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Stick Reel"
+  display_name: "Stick Figure Explainer"
   short_description: "Create narrated stick-figure videos for social media"
-  default_prompt: "Use $stick-reel to turn my topic into a narrated stick-figure Reel."
+  default_prompt: "Use $stick-figure-explainer to turn my topic into a narrated stick-figure Reel."
