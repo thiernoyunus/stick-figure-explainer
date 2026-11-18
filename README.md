@@ -35,6 +35,8 @@ You also need [Node.js 22 or later](https://nodejs.org/en/download) and [FFmpeg/
 
 The tools default to Playwright's matching browser, rather than a hard-coded Mac location. If you intentionally use a different installed browser, set `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` to its executable. That override may have different compatibility limits.
 
+The automated Linux check uses Ubuntu 24.04 with the pinned browser version; a newer distribution can need a newer Playwright release or different system packages.
+
 ## Try it without an API key
 
 The supplied focus example includes narration. From this repository:
