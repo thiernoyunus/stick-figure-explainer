@@ -1,0 +1,162 @@
+{
+  "title": "One task at a time",
+  "outputFile": "focus.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 11.5605,
+  "safe": {
+    "left": 60,
+    "top": 220,
+    "right": 960,
+    "bottom": 1500
+  },
+  "contactChecks": [
+    [
+      "desk-lamp",
+      0.8,
+      [
+        -92,
+        -66
+      ]
+    ],
+    [
+      "desk-lamp",
+      1.15,
+      [
+        -92,
+        -78
+      ]
+    ],
+    [
+      "desk-lamp",
+      2.75,
+      [
+        48,
+        -78
+      ]
+    ],
+    [
+      "desk-lamp",
+      3.05,
+      [
+        48,
+        -66
+      ]
+    ],
+    [
+      "sort-trays",
+      0.75,
+      [
+        -16,
+        -70
+      ],
+      1
+    ],
+    [
+      "sort-trays",
+      1.1,
+      [
+        -16,
+        -82
+      ],
+      1
+    ],
+    [
+      "sort-trays",
+      2.65,
+      [
+        88,
+        -82
+      ],
+      1
+    ],
+    [
+      "sort-trays",
+      2.95,
+      [
+        88,
+        -70
+      ],
+      1
+    ],
+    [
+      "sort-trays",
+      3.5,
+      [
+        -102,
+        -72
+      ]
+    ],
+    [
+      "sort-trays",
+      3.75,
+      [
+        -97,
+        -67
+      ]
+    ],
+    [
+      "sort-trays",
+      4.05,
+      [
+        -90,
+        -78
+      ]
+    ],
+    [
+      "sort-trays",
+      4.35,
+      [
+        -102,
+        -72
+      ]
+    ]
+  ],
+  "beats": [
+    {
+      "id": "one-task",
+      "scene": "desk-lamp",
+      "eyebrow": "A SMALL EXPERIMENT FOR YOUR NEXT TASK",
+      "title": [
+        "Everything feels",
+        "urgent?"
+      ],
+      "accent": "#b45309",
+      "narration": "A full to-do list can make everything feel urgent. Try choosing one task for right now.",
+      "captions": [
+        "A full list can feel urgent.",
+        "Choose one task for right now."
+      ],
+      "captionStarts": [
+        0,
+        3.1215
+      ],
+      "start": 0,
+      "duration": 5.7473,
+      "voiceDuration": 5.3973
+    },
+    {
+      "id": "later-pile",
+      "scene": "sort-trays",
+      "eyebrow": "ONE TASK NOW. THE REST CAN WAIT.",
+      "title": [
+        "Make a",
+        "later pile."
+      ],
+      "accent": "#28765a",
+      "narration": "Put the rest in a later pile. Finish the one in front of you, then choose again.",
+      "captions": [
+        "Put the rest in a later pile.",
+        "Finish one. Then choose again."
+      ],
+      "captionStarts": [
+        0,
+        2.1592
+      ],
+      "start": 5.7473,
+      "duration": 5.8132,
+      "voiceDuration": 5.0632
+    }
+  ]
+}

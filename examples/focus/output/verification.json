@@ -1,0 +1,91 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 11.5605,
+  "frames": 347,
+  "audioDuration": 11.521083,
+  "textSafeArea": {
+    "left": 60,
+    "top": 220,
+    "right": 960,
+    "bottom": 1500
+  },
+  "textViolations": [],
+  "browserErrors": [],
+  "contactChecks": [
+    {
+      "scene": "desk-lamp",
+      "time": 0.8,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "desk-lamp",
+      "time": 1.15,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "desk-lamp",
+      "time": 2.75,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "desk-lamp",
+      "time": 3.05,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "sort-trays",
+      "time": 0.75,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "sort-trays",
+      "time": 1.1,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "sort-trays",
+      "time": 2.65,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "sort-trays",
+      "time": 2.95,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "sort-trays",
+      "time": 3.5,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "sort-trays",
+      "time": 3.75,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "sort-trays",
+      "time": 4.05,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "sort-trays",
+      "time": 4.35,
+      "figure": 0,
+      "distance": 0
+    }
+  ],
+  "checkedAt": "2026-11-18T05:16:58.823Z"
+}

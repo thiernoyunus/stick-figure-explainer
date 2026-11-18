@@ -1,0 +1,194 @@
+[
+  {
+    "id": "p:copy-marker",
+    "label": "",
+    "duration": 6.8,
+    "width": 380
+  },
+  {
+    "id": "p:github actions video",
+    "label": "",
+    "duration": 5.8,
+    "width": 380
+  },
+  {
+    "id": "p:makers.ae",
+    "label": "",
+    "duration": 6.8,
+    "width": 380
+  },
+  {
+    "id": "p:yaml-sample",
+    "label": "",
+    "duration": 6.2,
+    "width": 380
+  },
+  {
+    "id": "p:promises-examples",
+    "label": "",
+    "duration": 6,
+    "width": 380
+  },
+  {
+    "id": "p:data structures in JS",
+    "label": "",
+    "duration": 5.6,
+    "width": 380
+  },
+  {
+    "id": "p:pages-blog-action",
+    "label": "",
+    "duration": 6,
+    "width": 380
+  },
+  {
+    "id": "p:markdown-it-class",
+    "label": "",
+    "duration": 5.8,
+    "width": 380
+  },
+  {
+    "id": "p:mongo-playground",
+    "label": "",
+    "duration": 5.8,
+    "width": 380
+  },
+  {
+    "id": "p:node basic auth",
+    "label": "",
+    "duration": 6.4,
+    "width": 380
+  },
+  {
+    "id": "p:node session auth",
+    "label": "",
+    "duration": 7,
+    "width": 380
+  },
+  {
+    "id": "p:sendy",
+    "label": "",
+    "duration": 6,
+    "width": 380
+  },
+  {
+    "id": "p:aws-cost-cli",
+    "label": "",
+    "duration": 6.4,
+    "width": 380
+  },
+  {
+    "id": "p:db-playground",
+    "label": "",
+    "duration": 5.6,
+    "width": 380
+  },
+  {
+    "id": "p:awesome-minimal-sites",
+    "label": "",
+    "duration": 5.8,
+    "width": 380
+  },
+  {
+    "id": "p:mondex",
+    "label": "",
+    "duration": 5.2,
+    "width": 380
+  },
+  {
+    "id": "p:mongodumper",
+    "label": "",
+    "duration": 4.4,
+    "width": 380
+  },
+  {
+    "id": "p:slack-msg",
+    "label": "",
+    "duration": 3.8,
+    "width": 380
+  },
+  {
+    "id": "p:local-ses",
+    "label": "",
+    "duration": 4.6,
+    "width": 380
+  },
+  {
+    "id": "p:gitkot",
+    "label": "",
+    "duration": 4.4,
+    "width": 380
+  },
+  {
+    "id": "p:typingwise",
+    "label": "",
+    "duration": 4.8,
+    "width": 380
+  },
+  {
+    "id": "p:timelang",
+    "label": "",
+    "duration": 4.8,
+    "width": 380
+  },
+  {
+    "id": "p:claude-queue",
+    "label": "",
+    "duration": 6,
+    "width": 380
+  },
+  {
+    "id": "p:claude-statusline",
+    "label": "",
+    "duration": 6.4,
+    "width": 380
+  },
+  {
+    "id": "p:copy-dom-css",
+    "label": "",
+    "duration": 4.8,
+    "width": 380
+  },
+  {
+    "id": "p:claupe",
+    "label": "",
+    "duration": 4.8,
+    "width": 380
+  },
+  {
+    "id": "p:balsamiq-sans-neue",
+    "label": "",
+    "duration": 4.8,
+    "width": 380
+  },
+  {
+    "id": "p:rundown",
+    "label": "",
+    "duration": 5.4,
+    "width": 380
+  },
+  {
+    "id": "p:video-demo",
+    "label": "",
+    "duration": 5.2,
+    "width": 380
+  },
+  {
+    "id": "diffity-review",
+    "label": "A stick figure comments on a line in a diff, sends it to an agent, the agent fixes the line and replies, and the change gets approved.",
+    "duration": 7.2,
+    "width": 390
+  },
+  {
+    "id": "diffity-loop",
+    "label": "A person prompts an AI agent in a terminal, the agent floods it with changes, the person opens Diffity, leaves comments on three lines and sends them back, Diffity folds into the terminal and the agent fixes each one.",
+    "duration": 13.4,
+    "width": 520
+  },
+  {
+    "id": "diffity-agents",
+    "label": "A spotlight slides along a rail of models grouped by agent, stops on one and lights up that agent, then turning up effort powers the agent up.",
+    "duration": 7.6,
+    "width": 500
+  }
+]

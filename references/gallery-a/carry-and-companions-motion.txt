@@ -1,0 +1,6 @@
+Scene: p:makers.ae
+Source: stick-reel/examples/upstream/scenes-p3.js
+Checker: original motion.mjs, 60 fps, default play
+Exit code: 0
+
+p:makers.ae: motion is clean

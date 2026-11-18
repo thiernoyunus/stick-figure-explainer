@@ -1,0 +1,33 @@
+{
+  "scene": "p:aws-cost-cli",
+  "source": "examples/upstream/scenes-p3.js",
+  "method": "Direct draw with instrumented RIG.fig return; S.t=3, S.n=0, wave=0. Held centre derived from the source callback offset; free centre from the source flight origin. Native stage units.",
+  "samples": [
+    {
+      "actionSeconds": 3.159999,
+      "handFront": [
+        10.289729286162476,
+        -86.20355140359953
+      ],
+      "receiptCenter": [
+        16.289729286162476,
+        -96.20355140359953
+      ],
+      "mode": "held"
+    },
+    {
+      "actionSeconds": 3.16,
+      "handFront": [
+        10.289676496140324,
+        -86.20372810147514
+      ],
+      "receiptCenter": [
+        15,
+        -98
+      ],
+      "mode": "free"
+    }
+  ],
+  "releaseCentreDifference": 2.211476699197705,
+  "scope": "Selected release only; not a collision/contact or all-scenes test."
+}

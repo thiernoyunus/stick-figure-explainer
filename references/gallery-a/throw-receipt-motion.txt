@@ -1,0 +1,6 @@
+Scene: p:aws-cost-cli
+Source: stick-reel/examples/upstream/scenes-p3.js
+Checker: original motion.mjs, 60 fps, default play
+Exit code: 0
+
+p:aws-cost-cli: motion is clean

@@ -1,0 +1,6 @@
+Scene: diffity-review
+Source: stick-reel/examples/upstream/diffity-review.js
+Checker: original motion.mjs, 60 fps, default play
+Exit code: 0
+
+diffity-review: motion is clean

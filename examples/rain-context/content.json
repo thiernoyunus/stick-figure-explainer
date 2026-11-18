@@ -1,0 +1,223 @@
+{
+  "title": "Matar & Ghayth — two words for rain",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "safe": {
+    "left": 60,
+    "top": 220,
+    "right": 960,
+    "bottom": 1500
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "scene": "rain-words",
+      "eyebrow": "QUR’AN • WORDS TO NOTICE",
+      "title": [
+        "Both mean rain.",
+        "What’s different?"
+      ],
+      "accent": "#dca921",
+      "narration": "Two words in the Quran. Both translated as rain. So, what's the difference?",
+      "captions": [
+        "Two words in the Qur’an.",
+        "Both translated as rain.",
+        "So, what’s the difference?"
+      ],
+      "minDuration": 5.8,
+      "voiceDuration": 4.91,
+      "duration": 5.81,
+      "start": 0,
+      "captionStarts": [
+        0,
+        1.9038,
+        3.4069
+      ]
+    },
+    {
+      "id": "matar",
+      "scene": "matar-storm",
+      "eyebrow": "01 / مَطَر / MATAR",
+      "title": [
+        "Rain. Often in",
+        "harmful contexts."
+      ],
+      "accent": "#ba5545",
+      "narration": "Matar means rain. In the Quran, it often appears in harmful contexts.",
+      "captions": [
+        "Matar means rain.",
+        "In the Qur’an, it often appears",
+        "in harmful contexts."
+      ],
+      "minDuration": 5.8,
+      "voiceDuration": 4.711,
+      "duration": 5.8,
+      "start": 5.81,
+      "captionStarts": [
+        0,
+        1.3296,
+        3.4814
+      ]
+    },
+    {
+      "id": "punishment",
+      "scene": "stone-shower",
+      "eyebrow": "AN EXAMPLE • QUR’AN 7:84",
+      "title": [
+        "A destructive",
+        "shower."
+      ],
+      "accent": "#ba5545",
+      "narration": "In seven, eighty-four, it describes a destructive shower, not normal rainfall.",
+      "captions": [
+        "In 7:84, it describes",
+        "a destructive shower,",
+        "not normal rainfall."
+      ],
+      "minDuration": 5.8,
+      "voiceDuration": 4.963,
+      "duration": 5.863,
+      "start": 11.61,
+      "captionStarts": [
+        0,
+        1.9704,
+        3.4667
+      ]
+    },
+    {
+      "id": "ghayth",
+      "scene": "ghayth-garden",
+      "eyebrow": "02 / غَيْث / GHAYTH",
+      "title": [
+        "Rain that brings",
+        "relief."
+      ],
+      "accent": "#28765a",
+      "narration": "Ghayth highlights welcome rain, bringing relief.",
+      "captions": [
+        "Ghayth highlights welcome rain,",
+        "bringing relief."
+      ],
+      "minDuration": 5.6,
+      "voiceDuration": 2.913,
+      "duration": 5.6,
+      "start": 17.473,
+      "captionStarts": [
+        0,
+        1.8581
+      ]
+    },
+    {
+      "id": "mercy",
+      "scene": "ghayth-garden",
+      "eyebrow": "NOTICE THE CONTEXT • QUR’AN 42:28",
+      "title": [
+        "After lost hope…",
+        "rain. And mercy."
+      ],
+      "accent": "#28765a",
+      "narration": "In forty-two, twenty-eight, Allah sends rain after people lose hope, and spreads His mercy.",
+      "captions": [
+        "In 42:28, Allah sends rain",
+        "after people lose hope,",
+        "and spreads His mercy."
+      ],
+      "minDuration": 6.8,
+      "voiceDuration": 5.594,
+      "duration": 6.8,
+      "start": 23.073,
+      "captionStarts": [
+        0,
+        2.1603,
+        3.8771
+      ]
+    },
+    {
+      "id": "nuance",
+      "scene": "context-board",
+      "eyebrow": "A DETAIL THAT MATTERS • QUR’AN 4:102",
+      "title": [
+        "Matar isn’t always",
+        "punishment."
+      ],
+      "accent": "#4969a0",
+      "narration": "But matar doesn't always mean punishment. Four, one-oh-two uses it for rain causing hardship.",
+      "captions": [
+        "Matar doesn’t always mean punishment.",
+        "4:102 uses it for rain",
+        "causing hardship."
+      ],
+      "minDuration": 6.8,
+      "voiceDuration": 5.792,
+      "duration": 6.8,
+      "start": 29.873,
+      "captionStarts": [
+        0,
+        2.3768,
+        4.6536
+      ]
+    },
+    {
+      "id": "takeaway",
+      "scene": "rain-words",
+      "eyebrow": "SAME TRANSLATION. DIFFERENT SHADES.",
+      "title": [
+        "Notice the word.",
+        "Read the context."
+      ],
+      "accent": "#dca921",
+      "narration": "The takeaway? Matar: often harmful contexts. Ghayth: rain as relief. Always read the context.",
+      "captions": [
+        "Matar: often harmful contexts.",
+        "Ghayth: rain as relief.",
+        "Always read the context."
+      ],
+      "minDuration": 6.4,
+      "voiceDuration": 7.15,
+      "duration": 8.05,
+      "start": 36.673,
+      "captionStarts": [
+        0,
+        2.45,
+        4.8
+      ]
+    }
+  ],
+  "duration": 44.723,
+  "outputFile": "matar-ghayth.mp4",
+  "contactChecks": [
+    [
+      "rain-words",
+      1,
+      [
+        -24,
+        -92
+      ]
+    ],
+    [
+      "rain-words",
+      3,
+      [
+        24,
+        -92
+      ]
+    ],
+    [
+      "stone-shower",
+      1.3,
+      [
+        -49,
+        -75
+      ]
+    ],
+    [
+      "context-board",
+      2.3,
+      [
+        -24,
+        -72
+      ]
+    ]
+  ]
+}

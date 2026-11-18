@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:03,122
+A full list can feel urgent.
+
+2
+00:00:03,122 --> 00:00:05,747
+Choose one task for right now.
+
+3
+00:00:05,747 --> 00:00:07,906
+Put the rest in a later pile.
+
+4
+00:00:07,906 --> 00:00:11,561
+Finish one. Then choose again.

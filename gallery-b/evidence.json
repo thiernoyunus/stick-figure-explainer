@@ -1,0 +1,227 @@
+{
+  "study": "actions-b",
+  "sourceSceneCount": 16,
+  "sourceScenes": [
+    {
+      "id": "p:mondex",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 142,
+      "durationSeconds": 5.2
+    },
+    {
+      "id": "p:mongodumper",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 300,
+      "durationSeconds": 4.4
+    },
+    {
+      "id": "p:slack-msg",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 388,
+      "durationSeconds": 3.8
+    },
+    {
+      "id": "p:local-ses",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 476,
+      "durationSeconds": 4.6
+    },
+    {
+      "id": "p:gitkot",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 602,
+      "durationSeconds": 4.4
+    },
+    {
+      "id": "p:typingwise",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 692,
+      "durationSeconds": 4.8
+    },
+    {
+      "id": "p:timelang",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 844,
+      "durationSeconds": 4.8
+    },
+    {
+      "id": "p:claude-queue",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 995,
+      "durationSeconds": 6.0
+    },
+    {
+      "id": "p:claude-statusline",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 1147,
+      "durationSeconds": 6.4
+    },
+    {
+      "id": "p:copy-dom-css",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 1291,
+      "durationSeconds": 4.8
+    },
+    {
+      "id": "p:claupe",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 1422,
+      "durationSeconds": 4.8
+    },
+    {
+      "id": "p:balsamiq-sans-neue",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 1521,
+      "durationSeconds": 4.8
+    },
+    {
+      "id": "p:rundown",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 1593,
+      "durationSeconds": 5.4
+    },
+    {
+      "id": "p:video-demo",
+      "source": "examples/upstream/scenes-p4.js",
+      "registrationLine": 1750,
+      "durationSeconds": 5.2
+    },
+    {
+      "id": "diffity-loop",
+      "source": "examples/upstream/diffity-loop.js",
+      "registrationLine": 303,
+      "durationSeconds": 13.4
+    },
+    {
+      "id": "diffity-agents",
+      "source": "examples/upstream/diffity-agents.js",
+      "registrationLine": 123,
+      "durationSeconds": 7.6
+    }
+  ],
+  "sourceSha256": {
+    "examples/upstream/scenes-p4.js": "c4433420afa573305b16032fad2767650cdf958c1a324547238db48d420f1f16",
+    "examples/upstream/diffity-loop.js": "2ceca03fc0ea335844c8496e7e26e9d1be967949e954a8b1357ce7673f2206c3",
+    "examples/upstream/diffity-agents.js": "d68686be9ae27b0c06f3958944be6a5df2f7353785536c6f50026357773bcd21",
+    "runtime/stick.js": "e489c2f5ec58dda2ef7251a6a70e5c669126a9cfc77d492e0d3b1b55af529ae6",
+    "scripts/frames.mjs": "85a4bd3ed2005027ca0e53cdedc455d26d6b35820e45e9952f74ac91edf81ecd",
+    "scripts/browser.mjs": "35019234467936f0d862adb1300db259d942f6f4364e31c9f1ae35d9ed0585d3",
+    "templates/preview.html": "8901ac1ff800a421ed9625747291bb6a93842f57ead0fef4a47b5ead6bf52b8a"
+  },
+  "playwrightVersion": "1.56.1",
+  "sheets": [
+    {
+      "scene": "p:mongodumper",
+      "path": "gallery-b/mongodumper-detail.png",
+      "frames": [
+        "idle:0",
+        "s:0.6",
+        "s:0.95",
+        "s:1.55",
+        "s:1.7",
+        "s:1.9",
+        "s:2.2",
+        "s:2.54",
+        "s:2.62",
+        "s:2.85",
+        "s:3.5",
+        "s:4.4"
+      ],
+      "command": "node scripts/frames.mjs --scene p:mongodumper --src examples/upstream/scenes-p4.js --frames 'idle:0,s:0.6,s:0.95,s:1.55,s:1.7,s:1.9,s:2.2,s:2.54,s:2.62,s:2.85,s:3.5,s:4.4' --fw 520 --fh 270 --cols 3 --out gallery-b/mongodumper-detail.png",
+      "exitCode": 0,
+      "reportedBrowserErrors": [],
+      "visuallyInspected": true,
+      "width": 3228,
+      "height": 2404,
+      "sha256": "87822fb050db1980b7f1f1b50c55580e04b2e1004df02eb08ac03a98f0441ef3"
+    },
+    {
+      "scene": "p:local-ses",
+      "path": "gallery-b/local-ses-detail.png",
+      "frames": [
+        "idle:0",
+        "s:0.75",
+        "s:1.3",
+        "s:1.37",
+        "s:1.57",
+        "s:1.82",
+        "s:2.4",
+        "s:2.5",
+        "s:2.7",
+        "s:2.95",
+        "s:3.6",
+        "s:4.6"
+      ],
+      "command": "node scripts/frames.mjs --scene p:local-ses --src examples/upstream/scenes-p4.js --frames 'idle:0,s:0.75,s:1.3,s:1.37,s:1.57,s:1.82,s:2.4,s:2.5,s:2.7,s:2.95,s:3.6,s:4.6' --fw 520 --fh 270 --cols 3 --out gallery-b/local-ses-detail.png",
+      "exitCode": 0,
+      "reportedBrowserErrors": [],
+      "visuallyInspected": true,
+      "width": 3228,
+      "height": 2404,
+      "sha256": "bdad612d021a4807a809f2645b675dc1f7d319c38e3e2585b3c40ade8fa920c0"
+    },
+    {
+      "scene": "diffity-loop",
+      "path": "gallery-b/diffity-loop-detail.png",
+      "frames": [
+        "idle:0",
+        "s:1.5",
+        "s:2.3",
+        "s:3.1",
+        "s:4.2",
+        "s:6.2",
+        "s:6.7",
+        "s:7.5",
+        "s:8.9",
+        "s:9.7",
+        "s:11.2",
+        "s:12.1"
+      ],
+      "command": "node scripts/frames.mjs --scene diffity-loop --src examples/upstream/diffity-loop.js --frames 'idle:0,s:1.5,s:2.3,s:3.1,s:4.2,s:6.2,s:6.7,s:7.5,s:8.9,s:9.7,s:11.2,s:12.1' --fw 520 --fh 270 --cols 3 --out gallery-b/diffity-loop-detail.png",
+      "exitCode": 0,
+      "reportedBrowserErrors": [],
+      "visuallyInspected": true,
+      "width": 3228,
+      "height": 2404,
+      "sha256": "19b6ccbfe27ea452f3330386a134a8760c313b52cc008d8b1bbbd6067e6b4808"
+    },
+    {
+      "scene": "diffity-agents",
+      "path": "gallery-b/diffity-agents-detail.png",
+      "frames": [
+        "idle:0",
+        "s:1.3@0",
+        "s:2.4@0",
+        "s:3.3@0",
+        "s:3.92@0",
+        "s:4.8@0",
+        "s:2.4@1",
+        "s:3.92@1",
+        "s:2.4@2",
+        "s:3.92@2",
+        "s:6.5@0",
+        "s:7.6@0"
+      ],
+      "command": "node scripts/frames.mjs --scene diffity-agents --src examples/upstream/diffity-agents.js --frames 'idle:0,s:1.3@0,s:2.4@0,s:3.3@0,s:3.92@0,s:4.8@0,s:2.4@1,s:3.92@1,s:2.4@2,s:3.92@2,s:6.5@0,s:7.6@0' --fw 520 --fh 270 --cols 3 --out gallery-b/diffity-agents-detail.png",
+      "exitCode": 0,
+      "reportedBrowserErrors": [],
+      "visuallyInspected": true,
+      "width": 3228,
+      "height": 2404,
+      "sha256": "1c3936aedec2796bb58a61fa228e7143b71b63d42c47287d289afc183ed1d1ff"
+    }
+  ],
+  "checks": {
+    "inventoryMatchesAllThreeSources": true,
+    "allSixActionFieldsPresent": true,
+    "relativeDocumentLinksResolve": true,
+    "noPersonalPathsInDocumentation": true
+  },
+  "limits": [
+    "Only four scenes received detailed sampled visual inspection in this contribution.",
+    "No continuous playback or motion checker run.",
+    "Ambient time remains fixed at 3 seconds in action cells.",
+    "Original net pole crosses the head at sampled 1.57 and 1.82 seconds; net overlaps inbox header.",
+    "No core or Reel edits."
+  ]
+}

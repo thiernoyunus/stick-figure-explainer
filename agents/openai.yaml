@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stick Reel"
+  short_description: "Create narrated stick-figure videos for social media"
+  default_prompt: "Use $stick-reel to turn my topic into a narrated stick-figure Reel."
