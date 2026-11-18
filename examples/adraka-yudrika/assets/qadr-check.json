@@ -1,0 +1,8 @@
+{
+  "model": "whisper-small-mlx",
+  "recognized": " ليلة القدر خير من ألف شهر",
+  "interval": [
+    32.28,
+    35.25
+  ]
+}

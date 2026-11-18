@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Adraka & Yudrika · Remake</title>
+<style>
+@font-face{font-family:Balsamiq Sans;src:url(assets/BalsamiqSans-Regular.ttf)}
+@font-face{font-family:Balsamiq Sans;src:url(assets/BalsamiqSans-Bold.ttf);font-weight:700}
+@font-face{font-family:Arabic;src:url(assets/NotoSansArabic.ttf)}
+*{box-sizing:border-box}body{margin:0;background:#252720;color:#faf8ef;font:16px 'Balsamiq Sans',sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;gap:28px;padding:20px}main{width:min(420px,calc(100vw - 40px));flex:none}canvas{display:block;width:100%;height:auto;border-radius:12px;box-shadow:0 15px 70px #0005}aside{max-width:300px}h1{font-size:30px}button,a{font:inherit;color:inherit}button{padding:12px 20px;border:0;border-radius:30px;background:#f8d65e;color:#141414;cursor:pointer}a{display:block;margin-top:20px}label{display:block;margin:16px 0}input[type=range]{width:100%;accent-color:#f8d65e}.note{color:#c5c8bc;line-height:1.5}.stamp{color:#f8d65e;font-size:13px;letter-spacing:2px}@media(max-width:760px){body{display:block}main,aside{margin:auto}aside{max-width:420px;padding-top:16px}}
+</style>
+<main><canvas id="reel" width="1080" height="1920" aria-label="Animated explanation of wa ma adraka and wa ma yudrika in the Quran"></canvas></main>
+<aside><div class="stamp">A LITTLE QUR’ANIC ARABIC</div><h1>Similar questions.<br>Different endings.</h1><button id="play">Play with narration</button><label><input id="scrub" type="range" min="0" max="100" value="0" aria-label="Video position"></label><label><input id="safe" type="checkbox"> Show Instagram safe zone</label><p class="note">Anonymous stick figures, moving props, and questions, explanations, and answers not given. Click the drawing to replay its current scene.</p><a href="output/adraka-yudrika-remake.mp4" download>Download the Reel</a><a href="SOURCES.md">Read the source notes</a></aside>
+<script src="assets/stick.js"></script><script src="scenes.js"></script><script src="reel.js?v=5"></script>
+</html>

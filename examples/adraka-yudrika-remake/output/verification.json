@@ -1,0 +1,103 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 91.82,
+  "frames": 2755,
+  "audioDuration": 91.74,
+  "textSafeArea": {
+    "left": 60,
+    "top": 220,
+    "right": 960,
+    "bottom": 1500
+  },
+  "textViolations": [],
+  "browserErrors": [],
+  "contactChecks": [
+    {
+      "scene": "unfolded-questions",
+      "time": 2.7,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "unfolded-questions",
+      "time": 2.7,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "open-explanation",
+      "time": 2.6,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "night-wait",
+      "time": 2.5,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "month-scroll",
+      "time": 3.6,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "telescope-search",
+      "time": 2.3,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "star-chart",
+      "time": 2.4,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "compare-pages",
+      "time": 1.7,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "sealed-hour",
+      "time": 3.2,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "perhaps-heart",
+      "time": 2.5,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "reading-partners",
+      "time": 2.75,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "reading-partners",
+      "time": 2.75,
+      "figure": 1,
+      "distance": 0
+    },
+    {
+      "scene": "different-endings",
+      "time": 2.8,
+      "figure": 0,
+      "distance": 0
+    },
+    {
+      "scene": "different-endings",
+      "time": 2.8,
+      "figure": 1,
+      "distance": 0
+    }
+  ],
+  "checkedAt": "2026-11-18T13:17:15.577Z"
+}

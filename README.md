@@ -66,12 +66,13 @@ Projects contain actual local files and can be moved independently of this repos
 <table><tr>
 <td><a href="examples/focus/output/focus.mp4"><img src="examples/focus/output/cover.png" width="210" alt="A reader carrying a task card into lamplight"></a><br>Focus · general topic</td>
 <td><a href="examples/rain-context/output/matar-ghayth.mp4"><img src="examples/rain-context/output/cover.png" width="210" alt="Two Arabic rain words in context"></a><br>Rain in context</td>
-<td><a href="examples/adraka-yudrika/output/adraka-yudrika.mp4"><img src="examples/adraka-yudrika/output/cover.png" width="210" alt="Two Quranic question expressions"></a><br>Adraka and yudrika</td>
+<td><a href="examples/adraka-yudrika-remake/output/adraka-yudrika-remake.mp4"><img src="examples/adraka-yudrika-remake/output/cover.png" width="210" alt="Reading partners unfold and carry different question packets"></a><br>Adraka and yudrika · remake</td>
 </tr></table>
 
 - [Focus](examples/focus/): a general-purpose narrated example with editable source.
 - [Rain in context](examples/rain-context/): held umbrella, rain, plant growth and contextual comparison.
 - [Adraka and yudrika](examples/adraka-yudrika/): Arabic quotations and English explanations across several props.
+- [Adraka and yudrika remake](examples/adraka-yudrika-remake/): the same script/voice with eleven physical-action scenes—unfolding, carrying, a lantern/backpack, a pulled month scroll, a telescope, a star chart and reading partners. The original cut remains available for comparison.
 - [Original scene sources](examples/upstream/): the full original example collection, including carrying, throwing, catching, tools and robot collaboration.
 
 The [example guide](references/examples.md) links preview images and explains what to borrow. The [creative guide](references/creative.md) covers script, layout, meaningful movement and review. Religious-source guidance is separate, so other topics don't inherit Quran-specific instructions.

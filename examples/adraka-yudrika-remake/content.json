@@ -1,0 +1,417 @@
+{
+  "title": "Wa mā adrāka & wa mā yudrīka — what follows the question?",
+  "outputFile": "adraka-yudrika-remake.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "safe": {
+    "left": 60,
+    "top": 220,
+    "right": 960,
+    "bottom": 1500
+  },
+  "contactChecks": [
+    [
+      "unfolded-questions",
+      2.7,
+      [
+        -79,
+        -67
+      ],
+      0
+    ],
+    [
+      "unfolded-questions",
+      2.7,
+      [
+        80,
+        -67
+      ],
+      1
+    ],
+    [
+      "open-explanation",
+      2.6,
+      [
+        -52,
+        -76
+      ]
+    ],
+    [
+      "night-wait",
+      2.5,
+      [
+        -17,
+        -53
+      ]
+    ],
+    [
+      "month-scroll",
+      3.6,
+      [
+        100,
+        -65
+      ]
+    ],
+    [
+      "telescope-search",
+      2.3,
+      [
+        -39,
+        -93
+      ]
+    ],
+    [
+      "star-chart",
+      2.4,
+      [
+        -49,
+        -55
+      ]
+    ],
+    [
+      "compare-pages",
+      1.7,
+      [
+        -48,
+        -83
+      ]
+    ],
+    [
+      "sealed-hour",
+      3.2,
+      [
+        13,
+        -65
+      ]
+    ],
+    [
+      "perhaps-heart",
+      2.5,
+      [
+        -40,
+        -68
+      ]
+    ],
+    [
+      "reading-partners",
+      2.75,
+      [
+        -22,
+        -68
+      ],
+      0
+    ],
+    [
+      "reading-partners",
+      2.75,
+      [
+        22,
+        -68
+      ],
+      1
+    ],
+    [
+      "different-endings",
+      2.8,
+      [
+        -22,
+        -75
+      ],
+      0
+    ],
+    [
+      "different-endings",
+      2.8,
+      [
+        22,
+        -75
+      ],
+      1
+    ]
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "scene": "unfolded-questions",
+      "eyebrow": "QUR’AN • LISTEN TO THE WORDING",
+      "title": [
+        "Almost the same",
+        "in English."
+      ],
+      "accent": "#4969a0",
+      "narration": "What's the difference between wa mā adrāka and wa mā yudrīka in the Quran? In English, they're translated almost identically: What could make you know?",
+      "captions": [
+        "What’s the difference between",
+        "wa mā adrāka and wa mā yudrīka?",
+        "In English, almost the same:",
+        "What could make you know?"
+      ],
+      "start": 0,
+      "duration": 10.9,
+      "voiceDuration": 10.38,
+      "captionStarts": [
+        0,
+        1.2,
+        6.54,
+        9.46
+      ]
+    },
+    {
+      "id": "rule",
+      "scene": "open-explanation",
+      "eyebrow": "A PATTERN NOTED BY SUFYAN IBN ‘UYAYNAH",
+      "title": [
+        "Watch what",
+        "comes next."
+      ],
+      "accent": "#28765a",
+      "narration": "But the scholar Sufyan ibn 'Uyaynah pointed out a difference: Whenever Allah says wa mā adrāka, He gives an explanation. With wa mā yudrīka, that specific answer isn't given. Listen to these examples.",
+      "captions": [
+        "Sufyan ibn ‘Uyaynah noted a difference:",
+        "Wa mā adrāka: He gives an explanation.",
+        "Wa mā yudrīka: that answer isn’t given.",
+        "Listen to these examples."
+      ],
+      "start": 10.9,
+      "duration": 14.3,
+      "voiceDuration": 13.74,
+      "captionStarts": [
+        0,
+        4.44,
+        8.8,
+        12.74
+      ]
+    },
+    {
+      "id": "qadr-question",
+      "scene": "night-wait",
+      "eyebrow": "THE QUESTION • AL-QADR 97:2",
+      "title": [
+        "What is the",
+        "Night of Decree?"
+      ],
+      "accent": "#b45309",
+      "arabic": [
+        "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ"
+      ],
+      "narration": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ What can make you know what the Night of Decree is?",
+      "captions": [
+        "What can make you know",
+        "what the Night of Decree is?"
+      ],
+      "start": 25.2,
+      "duration": 5.55,
+      "voiceDuration": 5.2,
+      "captionStarts": [
+        0,
+        3.8
+      ]
+    },
+    {
+      "id": "qadr-answer",
+      "scene": "month-scroll",
+      "eyebrow": "THE NEXT VERSE EXPLAINS • AL-QADR 97:3",
+      "title": [
+        "Better than",
+        "1,000 months."
+      ],
+      "accent": "#b45309",
+      "arabic": [
+        "لَيْلَةُ الْقَدْرِ خَيْرٌ مِنْ أَلْفِ شَهْرٍ"
+      ],
+      "narration": "The next verse explains: لَيْلَةُ الْقَدْرِ خَيْرٌ مِنْ أَلْفِ شَهْرٍ The Night of Decree is better than a thousand months.",
+      "captions": [
+        "The next verse explains:",
+        "The Night of Decree is better",
+        "than a thousand months."
+      ],
+      "start": 30.75,
+      "duration": 7.75,
+      "voiceDuration": 7.23,
+      "captionStarts": [
+        0,
+        4.51,
+        5.85
+      ]
+    },
+    {
+      "id": "tariq-question",
+      "scene": "telescope-search",
+      "eyebrow": "AND AGAIN • AT-TARIQ 86:2",
+      "title": [
+        "What is the",
+        "night visitor?"
+      ],
+      "accent": "#4969a0",
+      "arabic": [
+        "وَمَا أَدْرَاكَ مَا الطَّارِقُ"
+      ],
+      "narration": "And again: وَمَا أَدْرَاكَ مَا الطَّارِقُ What can make you know what the night visitor is?",
+      "captions": [
+        "And again:",
+        "What can make you know",
+        "what the night visitor is?"
+      ],
+      "start": 38.5,
+      "duration": 6.5,
+      "voiceDuration": 6.14,
+      "captionStarts": [
+        0,
+        1.2,
+        5.0
+      ]
+    },
+    {
+      "id": "tariq-answer",
+      "scene": "star-chart",
+      "eyebrow": "THE EXPLANATION • AT-TARIQ 86:3",
+      "title": [
+        "The piercing star."
+      ],
+      "accent": "#b45309",
+      "arabic": [
+        "النَّجْمُ الثَّاقِبُ"
+      ],
+      "narration": "النَّجْمُ الثَّاقِبُ The piercing star.",
+      "captions": [
+        "The piercing star."
+      ],
+      "start": 45.0,
+      "duration": 3.2,
+      "voiceDuration": 2.84,
+      "captionStarts": [
+        0
+      ]
+    },
+    {
+      "id": "turn",
+      "scene": "compare-pages",
+      "eyebrow": "NOW COMPARE THE OTHER WORDING",
+      "title": [
+        "Now listen to",
+        "wa mā yudrīka."
+      ],
+      "accent": "#4969a0",
+      "narration": "Both times, an explanation follows. Now compare wa mā yudrīka:",
+      "captions": [
+        "Both times, an explanation follows.",
+        "Now compare wa mā yudrīka."
+      ],
+      "start": 48.2,
+      "duration": 5.5,
+      "voiceDuration": 5.06,
+      "captionStarts": [
+        0,
+        3.46
+      ]
+    },
+    {
+      "id": "hour",
+      "scene": "sealed-hour",
+      "eyebrow": "THE EXACT TIME ISN’T GIVEN • AL-AHZAB 33:63",
+      "title": [
+        "Perhaps the Hour",
+        "is near."
+      ],
+      "accent": "#4969a0",
+      "arabic": [
+        "وَمَا يُدْرِيكَ لَعَلَّ السَّاعَةَ تَكُونُ قَرِيبًا"
+      ],
+      "narration": "وَمَا يُدْرِيكَ لَعَلَّ السَّاعَةَ تَكُونُ قَرِيبًا What would make you know? Perhaps the Hour is near. We're told it may be near. We aren't told when.",
+      "captions": [
+        "What would make you know?",
+        "Perhaps the Hour is near.",
+        "We’re told it may be near.",
+        "We aren’t told when."
+      ],
+      "start": 53.7,
+      "duration": 10.45,
+      "voiceDuration": 9.8,
+      "captionStarts": [
+        0,
+        5.74,
+        7.56,
+        8.9
+      ]
+    },
+    {
+      "id": "purification",
+      "scene": "perhaps-heart",
+      "eyebrow": "THE OUTCOME ISN’T CONFIRMED • ‘ABASA 80:3",
+      "title": [
+        "Perhaps he might",
+        "be purified."
+      ],
+      "accent": "#4969a0",
+      "arabic": [
+        "وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّىٰ"
+      ],
+      "narration": "And: وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّىٰ What would make you know? Perhaps he might be purified. A possibility is mentioned. His outcome isn't confirmed there.",
+      "captions": [
+        "What would make you know?",
+        "Perhaps he might be purified.",
+        "A possibility is mentioned.",
+        "His outcome isn’t confirmed there."
+      ],
+      "start": 64.15,
+      "duration": 11.45,
+      "voiceDuration": 10.87,
+      "captionStarts": [
+        0,
+        5.77,
+        7.85,
+        9.45
+      ]
+    },
+    {
+      "id": "takeaway",
+      "scene": "reading-partners",
+      "eyebrow": "NEXT TIME YOU HEAR THESE PHRASES…",
+      "title": [
+        "An explanation.",
+        "Or an open question."
+      ],
+      "accent": "#28765a",
+      "narration": "So next time you hear these phrases, listen closely: Wa mā adrāka, an explanation follows. Wa mā yudrīka, the specific answer isn't revealed.",
+      "captions": [
+        "Next time, listen closely:",
+        "Wa mā adrāka: an explanation follows.",
+        "Wa mā yudrīka: the answer isn’t revealed."
+      ],
+      "start": 75.6,
+      "duration": 10.4,
+      "voiceDuration": 9.96,
+      "captionStarts": [
+        0,
+        3.6,
+        6.94
+      ]
+    },
+    {
+      "id": "ending",
+      "scene": "different-endings",
+      "eyebrow": "SIMILAR IN ENGLISH. DIFFERENT IN USE.",
+      "title": [
+        "Two expressions.",
+        "Different endings."
+      ],
+      "accent": "#dca921",
+      "narration": "Two expressions that can sound similar in English, but watch how differently the Quran uses them.",
+      "captions": [
+        "They can sound similar in English…",
+        "but watch how differently",
+        "the Qur’an uses them."
+      ],
+      "start": 86.0,
+      "duration": 5.82,
+      "voiceDuration": 4.8,
+      "captionStarts": [
+        0,
+        3.0,
+        3.8
+      ]
+    }
+  ],
+  "duration": 91.82
+}
